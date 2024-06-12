@@ -7,7 +7,7 @@ import RelatedPostsComponent from "../components/RelatedPostsComponent";
 const BlogsDetails = () => {
     return (
         <>
-            <div class="breadcrumb-area">
+            {/* <div class="breadcrumb-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -23,7 +23,7 @@ const BlogsDetails = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <BlogDetailComponent />
 

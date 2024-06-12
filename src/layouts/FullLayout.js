@@ -30,6 +30,7 @@ const FullLayout = () => {
       
       <main className="fix">
         <Outlet />
+        
       </main>
       
       <Footer />

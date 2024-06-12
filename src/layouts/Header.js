@@ -59,10 +59,10 @@ const Header = () => {
                             <div className="header-top-social header-top-social-two">
                                 <h5 className="title">Follow Us:</h5>
                                 <ul className="list-wrap">
-                                    <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-facebook-f" /></a></li>
-                                    <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></a></li>
-                                    <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-instagram" /></a></li>
-                                    <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a></li>
+                                    <li><a href="https://www.facebook.com" target='blank'><FontAwesomeIcon icon="fa-brands fa-facebook-f" /></a></li>
+                                    <li><a href="https://www.twitter.com" target='blank'><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></a></li>
+                                    <li><a href="https://www.instagram.com" target='blank'><FontAwesomeIcon icon="fa-brands fa-instagram" /></a></li>
+                                    <li><a href="https://www.linkedin.com" target='blank'><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a></li>
                                 </ul>
                             </div>
                         </div>

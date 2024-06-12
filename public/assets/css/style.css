@@ -168,7 +168,7 @@ h6 {
 	font-family: var(--tg-heading-font-family);
 	color: var(--tg-heading-font-color);
 	margin-top: 0px;
-	margin-bottom: .7rem;
+	margin-bottom: .2rem;
 	font-style: normal;
 	line-height: var(--tg-heading-line-height);
 	font-weight: var(--tg-heading-font-weight);
@@ -3373,6 +3373,8 @@ label {
     margin-right: 16px;
     border-radius: 5px;
     overflow: hidden;
+    justify-content: center;
+    text-align: center;
 }
 .popular-post:hover .thumb img {
     transform: scale(1.05);
@@ -3538,7 +3540,7 @@ label {
     background-size: 100% 1px;
 }
 .post-tag-three {
-    background: rgba(255, 255, 255, 0.30);
+    background: rgba(104, 101, 101, 0.3)
 }
 .post-tag-three:hover {
     background: var(--tg-primary-color);
@@ -4173,8 +4175,8 @@ label {
 }
 .popular-post-two {
     border-bottom: 1px solid var(--tg-gray-two);
-    padding-bottom: 28px;
-    margin-bottom: 29px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 .popular-post-two:last-child {
     margin-bottom: 0;
@@ -4257,7 +4259,7 @@ label {
 .video-post-bg {
     background-size: cover;
     background-position: center;
-    padding: 100px 0 70px;
+    padding: 0 0 70px;
 }
 .section-title-three.black-title .section-title-line-three {
     border-color: #253346;
@@ -4317,7 +4319,7 @@ label {
     transform: scale(1.1);
 }
 .video-post-content .post-title {
-    color: var(--tg-white);
+    color: var(--tg-black);
     font-size: 28px;
     margin-bottom: 15px;
     line-height: 1.3;

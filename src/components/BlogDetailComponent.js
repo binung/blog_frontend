@@ -50,11 +50,11 @@ const BlogDetailComponent = () => {
                                             massa.</p>
                                         <p>Growned butter and brown sugar caramelly oodness crispy edgesthick and soft centers andey meltpuddles of chocolate y first favorite.dolor sit amet, consectetuer adipiscing elitter Aenean commodo ligula eget doloawr Aenean massa.m Ipsum has been the industry’s standard dummy.</p>
 
-                                        <blockquote>
+                                        {/* <blockquote>
                                             <span class="quoted"><FontAwesomeIcon icon="fa-solid fa-quote-left" /></span>
                                             <p>Grursus mal suada faci lisis orem ipsum dola onsectetur elittery Vestey  bulum the ipsumm ipsum that dolocons rsus mal suada and there fadolorit to the consectetur elite. </p>
                                             <cite>Thomas A. Edison</cite>
-                                        </blockquote>
+                                        </blockquote> */}
                                         <p>Growned butter and brown sugar caramelly oodness crispy edgesthick and soft centers andey meltpuddles offer chocolate y first favorite.dolor sit amet, consectetuer adipiscing elitter Aenean commodo ligula egette doloawr Aenean massa.m Ipsum has been the industry’s standard dummy.should never complain, complaining is a weak emotion, you got life, we breathing, we blessed. Surround yourself with angels.</p>
                                         <div class="blog-details-inner">
                                             <div class="row align-items-center">
@@ -82,99 +82,6 @@ const BlogDetailComponent = () => {
                                             <a href="https://www.youtube.com/watch?v=G_AEL-Xo5l8" class="paly-btn popup-video"><FontAwesomeIcon icon="fa-solid fa-play" /></a>
                                         </div>
                                         <p>Growned butter and brown sugar caramelly oodness crispy edgesthick and soft centers andey meltpuddles offer chocolate y first favorite.dolor sit amet, consectetuer adipiscing elitter Aenean commodo ligula egette doloawr Aenean massa.m Ipsum has been the industry’s standard dummy.should never complain, complaining is a weak emotion, you got life, we breathing, we blessed. Surround yourself with angels.</p>
-                                        <div class="blog-details-bottom">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-6">
-                                                    <div class="post-tags">
-                                                        <h5 class="title">Tags:</h5>
-                                                        <ul class="list-wrap">
-                                                            <li><Link to="blog.html">Art & Design</Link></li>
-                                                            <li><Link to="blog.html">Video</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="post-share">
-                                                        <h5 class="title">Share:</h5>
-                                                        <ul class="list-wrap">
-                                                            <li><Link to="#"><FontAwesomeIcon icon="fa-brands fa-facebook-f" /></Link></li>
-                                                            <li><Link to="#"><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></Link></li>
-                                                            <li><Link to="#"><FontAwesomeIcon icon="fa-brands fa-instagram" /></Link></li>
-                                                            <li><Link to="#"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></Link></li>
-                                                            <li><Link to="#"><FontAwesomeIcon icon="fa-brands fa-youtube" /></Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="blog-avatar-wrap mb-50">
-                                        <div class="blog-avatar-img">
-                                            <a href="#"><img src={avatar} alt="img" /></a>
-                                        </div>
-                                        <div class="blog-avatar-info">
-                                            <span class="designation">Author</span>
-                                            <h4 class="name"><a href="author.html">Cameron Williamson</a></h4>
-                                            <p>Finanappreciate your trust greatly Our clients choose dentace ducts because kneer ow we are the best area Awaitingare really.</p>
-                                        </div>
-                                    </div>
-                                    <div class="pev-next-post-wrap">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="post-item">
-                                                    <div class="thumb">
-                                                        <a href="blog-details.html"><img src={post04} alt="" /></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <span>Previous Post</span>
-                                                        <h5 class="post-title"><a href="blog-details.html">Make May Magnificent <br /> Wallpapers Edition</a></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="post-item next-post">
-                                                    <div class="thumb">
-                                                        <a href="blog-details.html"><img src={post05} alt="" /></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <span>Next Post</span>
-                                                        <h5 class="post-title"><a href="blog-details.html">Write Better By Borrowing <br /> Ideas JavaScript Functions</a></h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="comment-respond">
-                                        <h3 class="comment-reply-title">Post a comment</h3>
-                                        <form action="#" class="comment-form">
-                                            <p class="comment-notes">Your email address will not be published. Required fields are marked *</p>
-                                            <div class="form-grp">
-                                                <textarea name="comment" placeholder="Comment"></textarea>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="form-grp">
-                                                        <input type="text" placeholder="Name" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="form-grp">
-                                                        <input type="email" placeholder="Email" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="form-grp">
-                                                        <input type="url" placeholder="Website" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-grp checkbox-grp">
-                                                <input type="checkbox" id="checkbox_two" />
-                                                <label for="checkbox_two">Save my name, email, and website in this browser for the next time I comment.</label>
-                                            </div>
-                                            <button type="submit" class="btn btn-two">Post Comment</button>
-                                        </form>
                                     </div>
                                 </div>
                             </div>

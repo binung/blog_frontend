@@ -2075,6 +2075,7 @@ label {
     font-size: 18px;
     margin-bottom: 10px;
     line-height: 1.4;
+    height: 50px;
 }
 .banner-post-five:hover .banner-post-content-five .post-title a {
     background-size: 100% 1px;
@@ -2290,6 +2291,7 @@ label {
 /*=============================
 	08. About
 ===============================*/
+
 .about-img {
     position: relative;
     display: flex;
