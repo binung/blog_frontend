@@ -26,7 +26,8 @@
     "react-router-dom": "6.12.1",
     "reactstrap": "9.2.0",
     "sass": "1.63.2",
-    "web-vitals": "3.3.2"
+    "web-vitals": "3.3.2",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
