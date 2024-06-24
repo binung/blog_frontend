@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useEffect} from "react";
+import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Blog from '../components/Blog';
 import Newsletter from "../components/Newsletter";
@@ -22,6 +23,19 @@ import Entertainment from "./Entertainment";
 
 const Home = (props) => {
     const categoryName = "Home";
+
+    const getApiTest = () => {
+        // /* fetch API in action */
+        fetch('/api/auth/login')
+        .then(response => {
+            // return response.json();
+            console.log(response);
+        })
+    };
+
+    useEffect(() => {
+        getApiTest();
+      }, []); 
     return (
         <>
 

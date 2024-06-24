@@ -58,5 +58,8 @@
   },
   "overrides": {
     "nth-check": "2.1.1"
+  },
+  "engines": {
+    "npm": "^10.7.0"
   }
 }
